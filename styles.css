@@ -165,7 +165,7 @@ nav a:hover {
     /* ▼ メニュー本体（縦に並べる・ハンバーガーの下に表示） ▼ */
     nav {
         position: absolute;
-        top: 50px;
+        top:  60px;
         right: 15px;
         flex-direction: column;   /* ←縦一列 */
         align-items: flex-start;  /* 左揃え */
@@ -192,7 +192,7 @@ nav a:hover {
 
     /* 開いたとき */
     nav.active {
-        max-height: 300px;
+        max-height: 1000px;
     }
 }
 
