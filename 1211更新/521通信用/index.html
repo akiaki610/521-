@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>521運転会-ホームページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("navMenu");
+    menu.classList.toggle("active");
+}
+</script>
+
+
+<header class="hero-header">
+    <div class="overlay">
+        <h1>521系鉄道模型運転会</h1>
+
+        <!-- ▼ ハンバーガーメニュー ▼ -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="navMenu">
+            <a href="index.html">ホーム</a>
+            <a href="event.html">最新情報</a>
+            <a href="access.html">当運転会について</a>
+            <a href="album.html">写真集</a>
+            <a href="nissi.html">運営日誌</a>
+            <a href="unnei.html">運営/スタッフ</a>
+            <a href="contact.html">お問い合わせ/参加応募</a>
+         </nav>
+    </div>
+</header>
+
+
+<main class="two-column">
+
+    <section class="info left-box">
+        <h2>お知らせ</h2>
+        <div style="height: 4px; background-color: #3170aeaf; margin: 2px 0;"></div>
+        <p>2025/12/11　メニューの修正・写真の新規掲載</p>
+        <p>2025/12/09　ベータ版のログインページを削除しました。</p>
+        <p>2025/12/03　写真の掲載・「<a href="nissi.html">運営日誌</a>」の追加</p>
+        <p>2025/12/02　小さい画面の場合のUIを編集</p>
+        <p>2025/11/28　「<a href="album.html">写真集</a>」を追加しました。</p>
+        <p>2025/11/24　詳細の更新・参加応募フォームの開始</p>
+        <p>2025/11/21　細部の修正</p>
+        <p>2025/11/21　ホームページの公開</p>
+    </section>
+
+    <aside class="side-box">
+        <h2>521系鉄道模型運転会の公式X</h2>
+        <div style="height: 4px; background-color: #3170aeaf; margin: 2px 0;"></div>
+        <h3><a href="https://x.com/521_Trainseries?t=NNTE3mVHKXJAM28-CCirFQ&s=09">@521_Trainserier</a></h3>
+        <h2>☆ポスター☆</h2>
+        <img src="posta.jpg" alt="ポスター" class="responsive-img">        
+    </aside>
+
+</main>
+
+
+<footer>
+    <p>当運転会は、個人主催です。521系車両を保有・運用している鉄道会社様との関係は一切ございません。
+鉄道会社様にお問い合わせ等は、ご遠慮くださいますようにお願いします。</p>
+    <p>©2026-521系鉄道模型運転会運営</p>
+</footer>
+
+</body>
+</html>
